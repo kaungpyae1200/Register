@@ -132,7 +132,7 @@ display: inline;
 
 .login {
    
-
+    position: relative;
     border: 1px solid rgb(220, 68, 68);
     padding: 10px;
     margin-bottom: 10px;
@@ -143,6 +143,9 @@ display: inline;
     border-radius: 80px;
 
 
+}
+.login.active {
+    
 }
 
 
