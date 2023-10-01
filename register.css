@@ -1,10 +1,5 @@
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css);
 
-*{
-    margin: 0;
-    padding: 0;
-
-}
 
 .body {
     background-image: url(./img/pexels-johannes-plenio-3131634.jpg);
@@ -12,12 +7,31 @@
     background-size: cover;
 }
 .main {
-    padding: 20px 40px;
-}
-i {
-    padding: 40px;
-}
+   
 
+   
+}
+.topbar {
+   
+    /* background-color: green; */
+    overflow: hidden;
+    display: inline;
+    
+
+}
+.fa-house {
+    margin-left: 0;
+}
+.fa-magnifying-glass {
+    margin-left: 120px;
+}
+.fa-landmark {
+    margin-left: 120px;
+}
+.fa-link {
+    margin-left: 120px;
+
+}
 .topbar {
     
     overflow: hidden;
@@ -41,7 +55,8 @@ display: inline;
 }
 .poe1{
     
-    position: fixed;
+       
+
     width: 150px;
     top: 10px;
     right:100px;
@@ -50,7 +65,8 @@ display: inline;
 }
 .poe2 {
  
-   position: fixed;
+                                
+
     width: 150px;
     top: 20PX;
     right: 400px;
@@ -59,7 +75,8 @@ display: inline;
 }
 .poe3 {
  
-    position: fixed;
+        
+
     width: 150px;
     top: 300px;
     right: 400px;
@@ -68,7 +85,8 @@ display: inline;
 }
 .poe4 {
    
-    position: fixed;
+       
+
     width: 150px;
     top: 300px;
     right: 100px;
@@ -78,7 +96,85 @@ display: inline;
 
 .container {
     display: flex;
-    justify-content: space-between;
+    
+    justify-content:center;
     /* background-color: blue; */
+   
+    top: 50px;
+    left: 20px;
+}
+.form {
+   
+    /* margin-left: 20px; */
+    width: 200px;
+    /* position: fixed; */
+}
+.box-title {
+   text-align: center;
+    /* margin-top: 0; */
+    color:rgb(80, 61, 245);
+}
+
+.login {
+    border: 1px solid rgb(220, 68, 68);
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 400px;
+    margin: 50px auto;
+    background: linear-gradient(90deg, #f8ff00 0%, #3ad59f 100%);
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    border-radius: 160px;
+
+}
+.box-title {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    text-shadow: 3px 3px #f1d4d4;
+}
+    
+
+.input {
+    display: block;
+    width: 100%;
+    border: 2px solid white ;
+    line-height: 40px;
+    padding: 0 20px;
+    background-color: rgb(245, 211, 211);
+    appearance: none;
+    margin-left: 40px;
+
+}
+.label {
+    display: block;
+    margin-bottom: 10px;
+
+}
+.radio {
+    display: inline-block;
+    margin-left: 40px;
+}
+.option {
+    margin-left: 40px;
+
+}
+.agree {
+    margin-left: 40px;
+
+}
+.button{
+    color: white;
+    background-color: black;
+    text-align: right;
+    margin-left:40px;
+    margin-bottom: 30px;
+}
+.ABC{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+}
+p {
+  
 }
 
